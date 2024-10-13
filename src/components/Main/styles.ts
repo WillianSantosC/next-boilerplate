@@ -1,6 +1,4 @@
-"use client";
-
-import styled from "styled-components";
+import { styled } from "../../../styled-system/jsx";
 
 export const Wrapper = styled.main`
   background-color: #06092b;

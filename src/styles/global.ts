@@ -1,25 +1,24 @@
-"use client";
+import { defineGlobalStyles } from "@pandacss/dev";
 
-import { createGlobalStyle } from "styled-components";
+const globalCss = defineGlobalStyles({
+  "*": {
+    margin: "0",
+    padding: "0",
+    boxSizing: "border-box",
+  },
 
-const GlobalStyles = createGlobalStyle`
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  html: {
+    fontSize: "62.5%",
+  },
 
-html {
-    font-size: 62.5%; // 1rem = 10px
-}
+  "html, body, #__next": {
+    height: "100%",
+  },
 
-html, body, #__next{
-    height: 100%;
-}
+  body: {
+    fontFamily:
+      "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+  },
+});
 
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-}
-`;
-
-export default GlobalStyles;
+export default globalCss;
