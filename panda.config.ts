@@ -2,18 +2,13 @@ import { defineConfig } from "@pandacss/dev";
 import globalCss from "@/styles/global";
 
 export default defineConfig({
-  // Global CSS
   globalCss,
 
   // Whether to use css reset
   preflight: true,
 
   // Where to look for your css declarations
-  include: [
-    "./src/components/**/*.{ts,tsx,js,jsx}",
-    "./src/app/**/*.{ts,tsx,js,jsx}",
-    // "./src/components/**/stories.tsx",
-  ],
+  include: ["./src/**/*.{js,jsx,ts,tsx}", "./pages/**/*.{js,jsx,ts,tsx}"],
 
   // Files to exclude
   exclude: [],
@@ -28,7 +23,4 @@ export default defineConfig({
 
   // The JSX framework to use
   jsxFramework: "react",
-
-  // The CSS Syntax to use to use
-  syntax: "template-literal",
 });
