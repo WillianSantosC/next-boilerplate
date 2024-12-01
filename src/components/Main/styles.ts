@@ -2,7 +2,7 @@ import { styled } from "../../../styled-system/jsx";
 
 export const Wrapper = styled("main", {
   base: {
-    backgroundColor: "fuchsia.950",
+    backgroundColor: "token(colors.mainBg)",
     color: "#fff",
     width: "100%",
     height: "100%",
