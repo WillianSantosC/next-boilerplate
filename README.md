@@ -1,6 +1,6 @@
 ![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
 
-This is a [Next.js](https://nextjs.org/) 14.2.14 boilerplate.
+This is a [Next.js](https://nextjs.org/) 14.2.21 boilerplate.
 
 ## What is inside?
 
