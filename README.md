@@ -1,6 +1,6 @@
 ![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
 
-This is a [Next.js](https://nextjs.org/) 14.2.14 boilerplate.
+This is a [Next.js](https://nextjs.org/) 14.2.21 boilerplate.
 
 ## What is inside?
 
@@ -13,6 +13,7 @@ This project uses lot of stuff as:
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
+- [Jest](https://jestjs.io)
 
 ## Getting Started
 
@@ -32,6 +33,8 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - `build`: creates the production build version
 - `start`: starts a simple server with the build production code
 - `lint`: runs the linter in all components and pages
+- `test`: runs jest to test all components and pages
+- `test:watch`: runs jest in watch mode
 - `storybook`: runs storybook on `localhost:6006`
 - `build-storybook`: create the build version of storybook
 

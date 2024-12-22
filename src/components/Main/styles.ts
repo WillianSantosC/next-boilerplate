@@ -1,4 +1,4 @@
-import { styled } from "@/panda/jsx";
+import { styled } from "../../../styled-system/jsx";
 
 export const Wrapper = styled("main", {
   base: {
